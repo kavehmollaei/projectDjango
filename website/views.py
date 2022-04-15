@@ -10,7 +10,7 @@ def json_response(request):
     return JsonResponse({'name':'kaveh'})
 
 def about(request):
-    return HttpResponse('I am kaveh molaei and we developer')    
+    return render(request,'about.html')    
 
 def index(request):
-    return HttpResponse('<h1> ths is index page<h2>')
+    return render(request,'index.html')
