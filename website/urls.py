@@ -8,4 +8,3 @@ path('blog/',http_test),
 path('blog/json/',json_response),
 path('',index),
 path('about/',about)
-]
