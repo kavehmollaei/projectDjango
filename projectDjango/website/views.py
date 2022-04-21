@@ -17,3 +17,7 @@ def index(request):
 
 def contact(request):
     return render(request,'website/contact.html')
+def template(request):
+    template_tag={"name":"kavehmollaei"}
+    return render(request,'website/index.html',context=template_tag)
+
