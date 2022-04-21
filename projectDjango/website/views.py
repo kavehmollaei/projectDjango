@@ -12,6 +12,10 @@ def json_response(request):
 def about(request):
     return render(request,'website/about.html')    
 
+def blog(request):
+    return render(request,'website/blog.html')
+
+
 def index(request):
     return render(request,'website/index.html')
 
