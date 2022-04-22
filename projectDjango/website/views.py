@@ -13,7 +13,7 @@ def about(request):
     return render(request,'website/about.html')    
 
 def blog(request):
-    return render(request,'website/blog.html')
+    return render(request,'blog/blog.html')
 
 
 def index(request):
@@ -22,8 +22,8 @@ def index(request):
 def contact(request):
     return render(request,'website/contact.html')
 
-def portfolio(request):
-    return render(request,'website/portfolio.html')
+def service(request):
+    return render(request,'website/service.html')
 
 def template(request):
     template_tag={"name":"kavehmollaei"}

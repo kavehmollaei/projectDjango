@@ -63,9 +63,9 @@
                                 <div class="col-md-6">
                                     <!-- Start Contact Info -->
                                     <ul class="contact-details">
-                                        <li><a href="#"><i class="fa fa-phone"></i> +12 345 678 000</a>
+                                        <li><a href="#"><i class="fa fa-phone"></i> 09029983247</a>
                                         </li>
-                                        <li><a href="#"><i class="fa fa-envelope-o"></i> support@sulfur.com</a>
+                                        <li><a href="#"><i class="fa fa-envelope-o"></i> kavehmollaei@gmail.com</a>
                                         </li> 
                                     </ul>
                                     <!-- End Contact Info -->
@@ -123,26 +123,24 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <!-- End Toggle Nav Link For Mobiles -->
-                        <a class="navbar-brand" href="index.html">Math and Physics</a>
+                        <a class="navbar-brand" href="{% url 'website:index' %}">Math and Physics</a>
                     </div>
                     <div class="navbar-collapse collapse">
                         
                         <!-- Start Navigation List -->
                         <ul class="nav navbar-nav navbar-right">
                             <li>
-                                <a class="active" href="index.html">Home</a>
+                                <a class="active" href="{% url 'website:index' %}">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="{% url 'website:about' %}">About Us</a>
                             </li>
                             <li>
-                                <a href="service.html">Service</a>
+                                <a href="{% url 'website:service' %}">Class Plan</a>
                             </li>
+                            
                             <li>
-                                <a href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="blog.html">Blog</a>
+                                <a href="{% url 'blog:index' %}">Blog</a>
                                 <ul class="dropdown">
                                     <li>
                                         <a href="blog-item.html">Item Page</a>
