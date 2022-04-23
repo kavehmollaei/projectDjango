@@ -13,4 +13,5 @@ path('blogfa/',blog,name='blog'),
 # re_path(r'^[a-c]/',about),
 path('contact/',contact),
 path('template/',template),
+path('contact',contact,name='contact'),
 ]
